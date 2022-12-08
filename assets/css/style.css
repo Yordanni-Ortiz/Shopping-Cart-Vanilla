@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: "Oswald", sans-serif;
+  /* max-width: 1400px; */
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+.overflow {
+  overflow: hidden;
+}
+.bg-grey {
+  color: #434343;
+}
+/* Navigation */
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.navlogo {
+  width: 200px;
+  height: 59px;
+  margin: 0px 30px 40px;
+}
+.navlogo img {
+  margin-left: 1200px;
+
+}
+.column1 {
+  width: 400px;
+  height: 70vh;
+}
+.nav {
+  margin: 10px;
+}
+.columnshop {
+  display: flex;
+  position: fixed;
+  background-color: #434343;
+  width: 30%;
+  margin-left: 70%;
+  height: 100%;
+}
+/* Header */
+.header {
+  height: 300px;
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.logo {
+  width: 200px;
+}
+.bg-card {
+  transition: all 0.25s;
+}
+.row .bg-card:hover {
+  transform: translateY(-10px);
+}
+.btn-danger {
+  background-color: #343a39;
+  border-color: #434343;
+  transform: #434343;
+  margin-right: 20px;
+}
+/* footer */
+.textfooter p {
+    color: #0d0c0c;
+    font-size: 20px;
+    font-weight: bold;
+}
+.products_car {
+    inline-size: 100%;
+    background-color: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.nav-item {
+  padding-left: 3%;
+}
+.nav-item2 {
+  margin-left: 77%;
+}
+.header__ {
+    padding-top: 80px;
+}
+body {
+  background-image: url(../img/fondo_tienda.jpg);
+  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.card{
+  background-color: #2c2929;
+ border-radius: 20px;
+}
+.card-body {
+  color: white;
+}
+.table {
+  font-size: 150%;
+}
+.w-100 {
+  height: 90%;
+}
+.phone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 70px;
+  margin-top: 100px;
+}
+.help {
+  align-items: flex-end;
+  width: 5%;
+}
+.whatsapp {
+  margin-right: 25px;
+}
+.robot {
+  margin-right: 25px;
+}
+.contac {
+  margin-right: 12px;
+}
+.phone img {
+  width: 70px;
+  margin-left: 40px;
+}
+.phone p {
+  color: white;
+  margin-left: 25px;
+}
+/* 
+.nav-item {
+  padding-left: 3%;
+  position: fixed;
+  z-index: 1;
+}
+.nav-item-2 {
+  padding-left: 75%;
+  position: fixed;
+  z-index: 1;
+} */
+.container__cards{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cardPresentation{
+    width: 300px;
+    margin: 10px;
+    transition: all 300ms;
+}
+.cardPresentation:hover{
+    width: 350px;
+}
+.cardPresentation .cover{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+.cardPresentation .cover img{
+    width: 250px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+    filter: drop-shadow(5px 5px 4px rgba(0,0,0,0.5));
+    transition: all 400ms;
+}
+.cardPresentation:hover .cover img{
+    top: 0px;
+    filter: none;
+}
+.cardPresentation .img__back{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    background-size: cover;
+    border-radius: 20px;
+    transition: all 300ms;
+}
+.cardPresentation:nth-of-type(1) .img__back{
+    background-image: url(../img/bg1.jpg);
+}
+.cardPresentation:nth-of-type(2) .img__back{
+    background-image: url(../img/bg2.jpg);
+}
+.cardPresentation:nth-of-type(3) .img__back{
+    background-image: url(../img/bg3.jpg);
+}
+.cardPresentation:hover .img__back{
+    bottom: -40px;
+}
+.cardPresentation .description{
+    background: white;
+    margin-top: -10px;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    transition: all 300ms;
+}
+.cardPresentation:hover .description{
+    padding: 40px;
+}
+.cardPresentation .description h2{
+    margin-top: 10px;
+}
+.cardPresentation .description p{
+    margin-top: 10px;
+}
+.cardPresentation .description input{
+    padding: 10px 40px;
+    margin-top: 20px;
+    border: none;
+    background: #343a39;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 300ms;
+}
+.cardPresentation .description input:hover{
+    background: #bf2020;
+}
